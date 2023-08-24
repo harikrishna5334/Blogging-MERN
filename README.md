@@ -32,15 +32,15 @@ Have you ever wanted to express your thoughts, experiences, or knowledge through
 
 ## Installation
 
-1. **Clone the Repository:** Start by cloning this repository to your local machine using `git clone https://github.com/yourusername/fullstack-blogging-app.git`.
+1. **Clone the Repository:** Start by cloning this repository to your local machine using `git clone https://github.com/yourusername/Blogging-MERN.git`.
 
-2. **Backend Setup:** Navigate to the `server` directory and run `npm install` to install backend dependencies.
+2. **Backend Setup:** Navigate to the `api` directory and run `npm install` to install backend dependencies.
 
 3. **Frontend Setup:** Move to the `client` directory and run `npm install` to install frontend dependencies.
 
-4. **Database Configuration:** Configure your MongoDB connection by adding your database URL in the `server/config/db.js` file.
+4. **Database Configuration:** Configure your MongoDB connection by adding your database URL in the `api/models` file.
 
-5. **Start the Application:** In both the `server` and `client` directories, run `npm start` to launch the backend server and frontend application.
+5. **Start the Application:** In both the `api` and `client` directories, run `npm start` to launch the backend server and frontend application.
 
 ## Usage
 
@@ -55,7 +55,7 @@ Have you ever wanted to express your thoughts, experiences, or knowledge through
 - **Frontend:** React.js
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Styling:** CSS, Styled Components
+- **Styling:** CSS
 - **Authentication:** JSON Web Tokens (JWT)
 - **Deployment:** Heroku, Netlify
 
